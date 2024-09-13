@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hungdd",
+      "password": "123123",
+      "age": 22,
+      "address": "Ha Noi",
+      "token": "access_token"
+    },
+    {
+      "id": 2,
+      "username": "phanhle",
+      "password": "123123",
+      "age": 24,
+      "address": "Thuong Tin",
+      "token": "access_token"
+    },
+    {
+      "id": 3,
+      "username": "hamita",
+      "password": "123123",
+      "age": 23,
+      "address": "Bac Giang",
+      "token": "access_token"
+    }
+  ]
+}
