@@ -33,7 +33,8 @@ const PageIndex = () => {
                 tabBarLabel: 'Settings',
                 tabBarIcon: ({color}) => (
                     <MaterialIcons name="settings" color={color} size={30}/>
-                )
+                ),
+                headerShown: false
             }}/>
         </Tab.Navigator>
     )

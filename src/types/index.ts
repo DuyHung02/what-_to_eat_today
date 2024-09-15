@@ -1,3 +1,5 @@
+type Gender = 'male' | 'female' | 'other';
+
 export type IUserLogin = {
     username?: string;
     password?: string;
@@ -5,17 +7,16 @@ export type IUserLogin = {
 
 export type IUser = IUserLogin & {
     id?: number;
-    age?: number;
+    birthday?: number;
+    phone_number?: string;
+    gender?: Gender;
     address?: string;
     token?: string;
-}
-
-export type IAuthContextProps = {
-    user?: IUser | null;
-    setUser?: (payload: IUser) => void;
 }
 
 export type IAuthState = {
     token: string;
     user: IUser;
 }
+
+export type IFormProfile = IUser;

@@ -7,7 +7,6 @@ import {AuthNavigator, NonAuthNavigator} from "./src/naivgation/navigation";
 import {Provider, useSelector} from 'react-redux';
 import {store} from "./src/redux/store";
 import {RootState} from './src/redux/store';
-import {PaperProvider} from "react-native-paper";
 
 SplashScreen.preventAutoHideAsync();
 const AppContent = () => {
@@ -36,9 +35,7 @@ const AppContent = () => {
 
 const App = () => (
     <Provider store={store}>
-        {/*<PaperProvider>*/}
-            <AppContent/>
-        {/*</PaperProvider>*/}
+        <AppContent/>
     </Provider>
 )
 

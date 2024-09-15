@@ -12,4 +12,14 @@ export const globalStyles = StyleSheet.create({
         justifyContent: 'center',
         padding: 20
     },
+    inputContainer: {
+        width: '100%',
+        minHeight: 50,
+        height: 'auto',
+        marginBottom: 15,
+    },
+    errorMessage: {
+        color: 'red',
+        fontSize: 12
+    },
 })
